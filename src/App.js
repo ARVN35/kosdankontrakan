@@ -87,7 +87,7 @@ class Home extends Component {
           <div className="search">
             <input type="text"
               className='searchinput'
-              placeholder="Search..."
+              placeholder="cari..."
               value={this.state.search}
               onChange={this.handleSearch} />
           </div>
