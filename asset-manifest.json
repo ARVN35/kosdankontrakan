@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kosdankontrakan/static/css/main.1cb02a91.chunk.css",
+    "main.js": "/kosdankontrakan/static/js/main.d4c83ca6.chunk.js",
+    "main.js.map": "/kosdankontrakan/static/js/main.d4c83ca6.chunk.js.map",
+    "runtime-main.js": "/kosdankontrakan/static/js/runtime-main.e7d76571.js",
+    "runtime-main.js.map": "/kosdankontrakan/static/js/runtime-main.e7d76571.js.map",
+    "static/js/2.ce43080e.chunk.js": "/kosdankontrakan/static/js/2.ce43080e.chunk.js",
+    "static/js/2.ce43080e.chunk.js.map": "/kosdankontrakan/static/js/2.ce43080e.chunk.js.map",
+    "index.html": "/kosdankontrakan/index.html",
+    "static/css/main.1cb02a91.chunk.css.map": "/kosdankontrakan/static/css/main.1cb02a91.chunk.css.map",
+    "static/js/2.ce43080e.chunk.js.LICENSE.txt": "/kosdankontrakan/static/js/2.ce43080e.chunk.js.LICENSE.txt",
+    "static/media/edit-image.84445f2a.png": "/kosdankontrakan/static/media/edit-image.84445f2a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7d76571.js",
+    "static/js/2.ce43080e.chunk.js",
+    "static/css/main.1cb02a91.chunk.css",
+    "static/js/main.d4c83ca6.chunk.js"
+  ]
+}
