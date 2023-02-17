@@ -37,7 +37,7 @@ export class Register extends Component {
     this.setState({ users: useOwnerStore.getState().users });
     console.log(this.state.users);
     setTimeout(() => {
-      window.location.href = '/login';
+      window.location.hash = "#/login"
     }, 3000);
   }
 

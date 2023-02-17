@@ -18,7 +18,6 @@ function formatRupiah(angka){
 
 
 const Homestay = ({ selectKosan, kosan, ...props }) =>{
-  
   const [kosState, setKosState] = useState({
     popup: false,
   });
@@ -32,7 +31,7 @@ const Homestay = ({ selectKosan, kosan, ...props }) =>{
     {
       kosState.popup ? <PopupKos kosan={kosan} onClose={e => {closePopup(e)}}/> : null
     }
-    <div className="homestay" onClick={() => { setKosState(prv => ({ ...prv, popup: true })) }}>
+    <div className="homestay" onClick={() => { selectKosan(kosan); setKosState(prv => ({ ...prv, popup: true })) }}>
       <div className="homestay-foto">
         <img src={kosan.foto && kosan.foto[0] ? kosan.foto[0] : ""}  alt={kosan.nama}/>
       </div>

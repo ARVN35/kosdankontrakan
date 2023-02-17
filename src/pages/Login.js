@@ -54,7 +54,7 @@ export class Login extends Component {
       this.setState({ email: '', password: '' })
       this.setCookie('user', JSON.stringify({loggedIn: true, email: login[0].email, username: login[0].username}), 1)
       setTimeout(() => {
-        window.location.href = '/dashboard'
+        window.location.hash = "#/dashboard"
       }, 3000)
     } else {
       Swal.fire('Oops...', 'Email or Password is wrong!', 'error')

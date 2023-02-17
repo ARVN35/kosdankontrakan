@@ -40,8 +40,7 @@ class Home extends Component {
   }
 
   selectKosan = (kosan) => {
-    this.setState(prev => ({ ...prev, kosLocation: kosan }));
-    this.setState(prev => ({ ...prev, selectedKosan: true }));
+    this.setState(prev => ({ ...prev, selectedKosan: kosan }));
   }
 
   handleSearch = (event) => {
@@ -73,6 +72,14 @@ class Home extends Component {
       lat: -7.761321,
       lng: 113.2372833
     };
+
+    if (this.state.selectedKosan){
+      center = {
+        lat: Number(this.state.selectedKosan.lat),
+        lng: Number(this.state.selectedKosan.long)
+      }
+    }
+
     return (
       <div className="app">
         <div className="main">
@@ -87,7 +94,7 @@ class Home extends Component {
           <div className="homestays">
             {this.state.kosan.map((kos) => {
               return <Homestay
-                key={kos._id}
+                key={kos.id}
                 kosan={kos}
                 selectKosan={this.selectKosan} 
                 />
@@ -100,17 +107,17 @@ class Home extends Component {
             zoom={12}
             >
               {
-                this.state.allKosan.map(item => {
+                this.state.kosan.map(item => {
                   const lat = Number(item.lat);
                   const long = Number(item.long);
                   console.log(item)
                   return (
                     <Marker
-                      key={item._id}
+                      key={item.id}
                       lat={lat}
                       lng={long}
                       text={item.harga}
-                      selected={true}
+                      selected={item.id === this.state.selectedKosan?.id}
                     />
                   )
                 })

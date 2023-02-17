@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './App';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -18,7 +18,7 @@ dotenv.config();
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" component={<Home />} element={<Home />} />
         <Route path='/dashboard' component={<Dashboard />} element={<Dashboard />} />
@@ -27,7 +27,7 @@ function App() {
         <Route path='/register' component={<Register />} element={<Register />} />
         <Route path='*' component={<Notfound />} element={<Notfound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

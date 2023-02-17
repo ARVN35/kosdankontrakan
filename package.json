@@ -1,7 +1,7 @@
 {
   "name": "homestay",
   "version": "0.1.0",
-  "homepage": "http://ARVN35.github.io/kosdankontrakan",
+  "homepage": "https://arvn35.github.io/kosdankontrakan/#",
   "private": true,
   "dependencies": {
     "axios": "^1.2.2",
@@ -14,20 +14,33 @@
     "react-gesture-gallery": "^1.1.0",
     "react-gesture-responder": "^2.1.0",
     "react-google-maps": "^9.4.5",
-    "react-scripts": "1.1.5",
+    "react-scripts": "^4.0.3",
     "react-slideshow-image": "^4.1.1",
     "sweetalert2": "^11.6.16",
     "zustand": "^4.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -e build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-router-dom": "6.6.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

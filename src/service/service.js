@@ -1,5 +1,5 @@
 import axios from 'axios';
-const domain = "http://localhost:5000";
+const domain = "https://kosanbe.ayato.life";
 
 
 

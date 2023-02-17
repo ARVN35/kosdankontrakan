@@ -32,7 +32,7 @@ export class Dashboard extends Component {
   async componentDidMount() {
     document.title = 'Admin Panel - Dashboard'
     if (!this.state.isLoggedIn) {
-      window.location.href = '/login'
+      window.location.hash = "#/login"
     }
     // console.log(JSON.parse(this.getCookie('user')))
     this.gettingKos()

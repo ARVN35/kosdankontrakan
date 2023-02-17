@@ -35,7 +35,7 @@ export class Kosan extends Component {
   componentDidMount() {
     document.title = 'Admin Panel - Kosan'
     if (!this.state.isLoggedIn) {
-      window.location.href = '/login'
+      window.location.hash = "#/login"
     }
     this.getDataKosan()
     console.log(this.state.user)
