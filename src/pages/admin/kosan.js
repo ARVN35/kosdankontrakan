@@ -134,7 +134,7 @@ export class Kosan extends Component {
                         <textarea type="tel" name="deskripsi" id="deskripsi" className="form-control" style={{ width: '100%' }} value={this.state.deskripsi} onChange={e => this.setState({ deskripsi: e.target.value })} />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="harga">Harga Sewa (per bulan)</label>
+                        <label htmlFor="harga">Harga Sewa (bulan/tahun)</label>
                         <input type="number" name="harga" id="harga" className="form-control" style={{ width: '100%' }} value={this.state.harga} onChange={e => this.setState({ harga: e.target.value })} />
                       </div>
                       <div className="form-group">
