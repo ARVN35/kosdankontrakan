@@ -25,7 +25,7 @@ export class Navbar extends Component {
   render() {
     return (
       <ul className='navdd'>
-        <li className='navit'><Link className="active" to="/">Tampilan Awal</Link></li>
+        <li className='navit'><Link className="active" to="/">WELCOM IN HOME</Link></li>
         <li className="dd" style={{float: 'right'}}>
           <a href="javascript:void(0)" className="dropbtn">Action</a>
           <div className="dd-content">

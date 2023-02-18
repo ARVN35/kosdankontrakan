@@ -7,7 +7,7 @@ export class Navbar extends Component {
       <header id="header" className="header">
         <div className="top-left">
           <div className="navbar-header">
-            <Link className="navbar-brand" to={'/'}>ADMIN PANEL</Link>
+            <Link className="navbar-brand" to={'/'}>TO HOME</Link>
             <Link id="menuToggle" className="menutoggle"><i className="fa fa-bars" /></Link>
           </div>
         </div>
