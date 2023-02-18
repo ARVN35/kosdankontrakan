@@ -15,11 +15,7 @@
   position: sticky;
 }
 
-.homestays {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
+
 
 .search {
   padding: 10px;
