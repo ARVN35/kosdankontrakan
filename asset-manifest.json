@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kosdankontrakan/static/css/main.1cb02a91.chunk.css",
-    "main.js": "/kosdankontrakan/static/js/main.0440477f.chunk.js",
-    "main.js.map": "/kosdankontrakan/static/js/main.0440477f.chunk.js.map",
+    "main.js": "/kosdankontrakan/static/js/main.bc85eaa1.chunk.js",
+    "main.js.map": "/kosdankontrakan/static/js/main.bc85eaa1.chunk.js.map",
     "runtime-main.js": "/kosdankontrakan/static/js/runtime-main.e7d76571.js",
     "runtime-main.js.map": "/kosdankontrakan/static/js/runtime-main.e7d76571.js.map",
     "static/js/2.ce43080e.chunk.js": "/kosdankontrakan/static/js/2.ce43080e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e7d76571.js",
     "static/js/2.ce43080e.chunk.js",
     "static/css/main.1cb02a91.chunk.css",
-    "static/js/main.0440477f.chunk.js"
+    "static/js/main.bc85eaa1.chunk.js"
   ]
 }
